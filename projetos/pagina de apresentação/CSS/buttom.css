@@ -1,0 +1,108 @@
+button{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 200px;
+    height: 80px;
+    border: none;
+    border-radius: 10px;
+    background-color: gray;
+    font-family: fantasy;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 4px 4px 0px #000000;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn-1{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 200px;
+    height: 80px;
+    border: none;
+    border-radius: 10px;
+    background-color: gray;
+    font-family: fantasy;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 4px 4px 0px #000000;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn-1:hover{
+    background-color: rgb(150, 124, 89);
+}
+
+.btn-2{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 200px;
+    height: 80px;
+    border: none;
+    border-radius: 10px;
+    background-color: gray;
+    font-family: fantasy;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 4px 4px 0px #000000;
+    transition: all 0.2s ease-in-out;
+}  
+
+.btn-2:hover{
+    background-color: rgb(138, 106, 58);
+}
+
+.btn-3{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 200px;
+    height: 80px;
+    border: none;
+    border-radius: 10px;
+    background-color: gray;
+    font-family: fantasy;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 4px 4px 0px #000000;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn-3:hover{
+    background-color: rgb(112, 67, 8);
+}
+
+a{
+    text-decoration: none;
+}
+
+.img-2{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 670px;
+    right: 780px;
+
+}
+
+.img-3{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 780px;
+    top: 565px;
+}
+
+.img-4{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 795px;
+    top: 770px;
+}

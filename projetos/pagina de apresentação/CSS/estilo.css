@@ -1,0 +1,38 @@
+body{
+    background: url(../imagens/download\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parte-cima{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 28px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+}
+
+.imagem{
+    display: flex;
+    justify-content: center;
+}
+
+.img{
+    border-radius: 50%;
+    border: 10px solid red;
+
+}
+
+.texto{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    gap: 20px;
+    line-height: 1.0;
+    font-size: 20px;
+    text-align: justify;
+    text-indent: 20px;
+}
+
