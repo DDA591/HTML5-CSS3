@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/download.png" type="image/x-icon">
+    <title>Quiz para programadores!</title>
+</head>
+<body>
+   <header>
+        <h1>Quiz interativo para programadores</h1>
+        <p>Teste seus conhecimento em programação e veja qual pontuação voê consegue fazer!</p>
+   </header>
+
+   <main>
+    <!-- introdução -->
+        <section>
+            <h2>Sobre esse quiz</h2>
+            <p>Este quiz foi dezenvolvido para testar seus <strong>conhecimentos</strong> em <strong>programação</strong>, <br> como <em>linguagens de programção</em>, conceitos básico e <abbr title="HyperText markup language">HTML</abbr> </p>
+        </section>
+
+        <!-- primeira pergunta -->
+        <section>
+            <h2>
+                Pergunta 1: Qual linguagem é usada para estruturar  paginas web
+            </h2>
+
+            <form>
+                <input type="radio" value="python" id="p1a" name="pergunta1">
+                <label for="p1a">python</label>
+                    <br>
+                <input type="radio" value="javascript" id="p1b" name="pergunta1">
+                <label for="p1b">javascript</label>
+                    <br>
+                <input type="radio" value="HTML" id="p1c" name="pergunta1">
+                <label for="p1b">HTML</label>
+                    <br>
+                <input type="radio" value="CSS" id="p1bd" name="pergunta1">
+                <label for="p1b">CSS</label>
+            </form>
+        </section>
+
+        <!-- segunda pergunta -->
+        <section>
+            <h2>Pergunta 2: Na URL https://www.google.com o trecho "google.com" é o _____ </h2>
+            <form>
+                <input type="" id="p2" name="pergunta2" placeholder="Digite sua resposta...">
+            </form>
+            
+        </section>
+
+        <!-- terceira pergunta -->
+        <section>
+            <h2>
+                Pergunta 3: escreva um exemplo de senha forte.
+            </h2>
+            <form>
+                <input type="password" name="pergunta3" id="p3" placeholder="Digite uma senha...">
+            </form>
+        </section>
+
+        <!-- quarta pergunta -->
+        <section>
+            <h2>
+                Pergunta 4: Em que ano o HTML laçou sua primeira versão?
+            </h2>
+            <form>
+                <input type="date" id="p4" name="pergunta4">
+            </form>
+            
+        </section>
+
+        <!-- quinta pergunta -->
+        <section>
+            <h2>
+                Pergunta 5: Quais dessa tecnologias são consideradas lingugens de programação
+            </h2>
+
+            <form>
+                <input type="checkbox" name="pergunta5" id="p5a" value="javascript">
+                <label for="p5a">javascript</label>              
+                
+                <input type="checkbox" name="pergunta5" id="p5b" value="HTML">
+                <label for="p5a">HTML</label>               
+                
+                <input type="checkbox" name="pergunta5" id="p5c" value="Java">
+                <label for="p5a">Java</label>               
+                
+                <input type="checkbox" name="pergunta5" id="p5d" value="CSS">
+                <label for="p5a">CSS</label>
+            </form>
+        </section>
+
+        <!-- sexta pergunta -->
+        <section>
+            <h2>
+                Pergunta 6: Faça o upload de um arquivo contendo código HTML 
+            </h2>
+            <form>
+                <input type="file" name="pergunta 6" id="p6">
+            </form>
+        </section>
+
+        <!-- setima pergunta -->
+        <section>
+            <h2>
+                Pergunta 7: Selecione o atributo do input que define o seu tipo:
+            </h2>
+            <form>
+                <select name="pergunta7" id="p7">
+                    <option value="id">id</option>
+                    <option value="type">type</option>
+                    <option value="placeholder">placeholder</option>
+                </select>
+            </form>
+        </section>
+
+        <!-- oitava pergunta -->
+        <section>
+            <h2>
+                Pergunta 8: Qual linguagem de programação é representada pelo logotipo abaixo?
+            </h2>
+         <figure>
+                 <img src="imagens/Java.png" alt="Java">
+            <br><figcaption>Figura 1 logotipo de uma linguagem de progamação:</figcaption>
+        </figure>
+            <input type="text" id="p8" name="pergunta8" placeholder="Digite sua resposta...">
+        </section>
+        <!-- tabela de pontuação -->
+         <section>
+            <h2>
+                Tabela de pontuação
+            </h2>
+            <table border="3">
+                <thead>
+                    <tr>
+                       <th>Pontuação</th>
+                       <th>Avaliação</th> 
+                    </tr>
+            </thead>
+                <tbody>
+                <tr>
+                    <td>0-2</td> 
+                    <td>Não desista! Cada tentativa é uma oportunidade para você aprender</td>
+                </tr>
+                <tr>
+                    <td>3-4</td>
+                    <td>Você ainda precisa melhorar! Que tal estudar um pouco mais?</td>
+                </tr>
+                <tr>
+                    <td>5-7</td>
+                    <td>Bom! Seu conhecimento em programação está satisfatório</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>Parabéns! Seus conhecimentos em programação é ótimo.</td>
+                </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2">Boa sorte na próxima!</td>
+                    </tr>
+                </tfoot>
+            </table>
+         </section>
+         
+   </main>
+
+   <footer>
+
+   </footer>
+</body>
+</html>
