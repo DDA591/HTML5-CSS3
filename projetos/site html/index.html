@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imagens/download.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
     <title>Quiz para programadores!</title>
 </head>
 <body>
    <header>
-        <h1>Quiz interativo para programadores</h1>
+        <h1>Quiz interativo para <br> programadores</h1>
         <p>Teste seus conhecimento em programação e veja qual pontuação voê consegue fazer!</p>
    </header>
 
@@ -44,7 +45,7 @@
         <section>
             <h2>Pergunta 2: Na URL https://www.google.com o trecho "google.com" é o _____ </h2>
             <form>
-                <input type="" id="p2" name="pergunta2" placeholder="Digite sua resposta...">
+                <input type="text" id="p2" name="pergunta2" placeholder="Digite sua resposta...">
             </form>
             
         </section>
@@ -170,7 +171,7 @@
                 </tr>
                 <tr>
                     <td>8</td>
-                    <td>Parabéns! Seus conhecimentos em programação é ótimo.</td>
+                    <td>Parabéns! Seus conhecimentos em programação são ótimos.</td>
                 </tr>
                 </tbody>
                 <tfoot>
@@ -194,8 +195,8 @@
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email">
                 <br>
-                <label for="comment">Comentários:</label>
-                <textarea id="comments" name="comments" rows="4" cols="30" placeholder="Digite seus comentários aqui"></textarea>
+                <label for="comment">Comentários: <br></label>
+                <textarea id="comments" name="comments" rows="4" cols="70" placeholder="Digite seus comentários aqui"></textarea>
                 <br>
                 <button onclick="alert('FEEDBACK ENVIADO')">Envie o Feedback</button>
             </fieldset>
@@ -205,9 +206,9 @@
    </main>
 
    <footer>
-    <p>&copy;Quiz de programação. Todos os direitos reservados
+    <p class="paragrafo.footer">&copy;Quiz de programação. Todos os direitos reservados
     </p>
-    <p>Para conhecer mais sobre mim <a href="sobremim.html" target="_blank">clique aqui</a></p>
+    <p class="paragrafo.footer">Para conhecer mais sobre mim <a href="sobremim.html" target="_blank">clique aqui</a></p>
    </footer>
 </body>
 </html>
