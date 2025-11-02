@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Momo+Trust+Display&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "momo Trust Display", sans-serif;
+    background-color: #d4ccbf;
+    color: #798252;
+    font-weight: 400;
+}
+
+header{
+    background-color: #331f19;
+    padding: 2rem;
+    text-align: center;
+}
+
+main p{
+    text-align: center;
+}
+
+main img{
+    margin-left: 600px ;
+    width: 20rem;
+    border-radius: 200px;
+    border:6px solid #331f19 ;
+   
+}
+
+legend{
+    font-size: medium;
+    text-align: center;
+    background-color: #331f19;
+}
+
+h3{
+    margin-top: 6rem;
+}
+
+a{
+    text-decoration: none;
+    color: #331f19;
+    margin: 1rem;
+}
+
+
+footer{
+    background-color: #331f19;
+}
+
+footer p{
+    text-align: center;
+    margin-top: 4.5rem;
+}
