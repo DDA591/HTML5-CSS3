@@ -7,7 +7,8 @@
 }
 
 body{
-    background-color: rgb(154, 93, 211);
+    background-image: url(nubank-1920x1080.jpg);
+    background-size: 100%;
     font-family: "rubik", sans-serif;
     font-weight: 400px;
 }
@@ -18,18 +19,18 @@ main{
     height: 40rem;
     border-radius: 10px;
     margin-top: 4rem;
-    margin-left: 4rem;
+    margin-left: 3rem;
 }
 
 main h1{
     font-size: 3rem;
-    color: rgb(154, 93, 211);
+    color: rgb(89, 51, 125);
     margin-bottom: 1.7rem;
 }
 
 p{
     font-size: 2rem;
-    color: rgb(154, 93, 211);
+    color: rgb(89, 51, 125);
 
     margin-left: 1rem;
 
@@ -41,23 +42,27 @@ input{
      margin-left: 1rem;
     padding: 0.6rem;
     background-color: white;
-    border: 2px solid rgb(154, 93, 211);
+    border: 2px solid rgb(89, 51, 125);
     outline: none;
     border-radius: 5px;
     margin-bottom: 3rem;
 }
 
 input::placeholder{
-    color: rgb(154, 93, 211);
+    color: rgb(89, 51, 125);
+}
+
+input[type="date"]{
+    color: rgb(89, 51, 125);
 }
 
 button{
-    background-color: rgb(154, 93, 211);
+    background-color: rgb(89, 51, 125);
     border-radius: 60px;
     cursor: pointer;
     width: 16rem;
     height: 3rem;
-    margin-left: 2rem;
+    margin-left: 7rem;
     margin-top: -6rem;
     border: 0px;
 }
