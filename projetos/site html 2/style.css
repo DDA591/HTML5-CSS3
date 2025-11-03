@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Momo+Trust+Display&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 *{
     margin: 0;
@@ -23,6 +24,40 @@ main{
 main h1{
     font-size: 3rem;
     color: rgb(154, 93, 211);
-    
+    margin-bottom: 1.7rem;
 }
 
+p{
+    font-size: 2rem;
+    color: rgb(154, 93, 211);
+
+    margin-left: 1rem;
+
+    font-family: "Momo Trust Display", sans-serif;
+}
+
+input{
+     width: 20rem;
+     margin-left: 1rem;
+    padding: 0.6rem;
+    background-color: white;
+    border: 2px solid rgb(154, 93, 211);
+    outline: none;
+    border-radius: 5px;
+    margin-bottom: 3rem;
+}
+
+input::placeholder{
+    color: rgb(154, 93, 211);
+}
+
+button{
+    background-color: rgb(154, 93, 211);
+    border-radius: 60px;
+    cursor: pointer;
+    width: 16rem;
+    height: 3rem;
+    margin-left: 2rem;
+    margin-top: -6rem;
+    border: 0px;
+}
