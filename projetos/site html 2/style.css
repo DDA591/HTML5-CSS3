@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(154, 93, 211);
+    font-family: "rubik", sans-serif;
+    font-weight: 400px;
+}
+
+main{
+    background-color: rgb(255, 255, 255);
+    width: 30rem;
+    height: 40rem;
+    border-radius: 10px;
+    margin-top: 4rem;
+    margin-left: 4rem;
+}
+
+main h1{
+    font-size: 3rem;
+    color: rgb(154, 93, 211);
+    
+}
+
