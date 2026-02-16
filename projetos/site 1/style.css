@@ -9,11 +9,8 @@ body{
 }
 
 header{
-    background-color: rgb(80, 80, 80);
-    color: rgb(137, 99, 29);
     border-radius: 0px 0px 10px 10px;
-    border: 3px solid rgb(155, 103, 13);
-    margin-bottom: 2rem;
+    margin-bottom: 5.5rem;
 }
 
 div{
@@ -22,7 +19,7 @@ div{
     gap: 20px;
     width: 300px;
     height: 195px;
-    margin-left: 2rem;
+    margin-left: 4rem;
     border-radius: 10px;
 }
 
@@ -32,6 +29,7 @@ input{
     border-radius: 16px;
     border: none;
     transition: 600ms;
+    width: 260px;
 }
 
 button{
